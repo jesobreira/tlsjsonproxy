@@ -1,0 +1,29 @@
+{
+  "name": "tlsjsonproxy",
+  "version": "1.0.0",
+  "description": "Creates a HTTP server that acts as a proxy to a JSON-RPC TLS socket-based interface",
+  "main": "tlsjsonproxy.js",
+  "bin": {
+    "tlsjsonproxy": "tlsjsonproxy.js"
+  },
+  "scripts": {
+    "start": "node tlsjsonproxy.js",
+    "test": "node tlsjsonproxy.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jesobreira/tlsjsonproxy.git"
+  },
+  "keywords": [
+    "electrumx",
+    "electrum",
+    "wallet",
+    "api"
+  ],
+  "author": "Jefrey S. Santos <jefrey.santos@capitual.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jesobreira/tlsjsonproxy/issues"
+  },
+  "homepage": "https://github.com/jesobreira/tlsjsonproxy#readme"
+}
